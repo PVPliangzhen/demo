@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml:1:1-6:12
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		ADDED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\screendimen_library\src\main\AndroidManifest.xml

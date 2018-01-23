@@ -1,0 +1,133 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:1-71:12
+	package
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:2:5-43
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:4:5-30
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:3:5-28
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+		INJECTED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml
+uses-sdk
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:7:9-35
+application
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:10:5-69:19
+	android:allowBackup
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:10:18-44
+meta-data#UMENG_APPKEY
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:11:9-14:21
+	android:value
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:13:13-53
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:12:13-40
+activity#com.ablesky.ui.activity.wxapi.WXEntryActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:16:9-21:75
+	android:screenOrientation
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:20:13-49
+	android:exported
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:19:13-36
+	android:configChanges
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:18:13-74
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:17:13-73
+activity#com.ablesky.ui.activity.wxapi.WXPayEntryActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:22:9-27:75
+	android:screenOrientation
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:26:13-49
+	android:exported
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:25:13-36
+	android:configChanges
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:24:13-74
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:23:13-76
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:28:9-40:20
+	android:launchMode
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:30:13-44
+	android:noHistory
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:29:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:32:13-39:29
+action#android.intent.action.VIEW
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:33:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:35:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:36:27-75
+data
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:38:17-60
+	android:scheme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:38:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:41:9-45:76
+	android:screenOrientation
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:43:13-49
+	android:configChanges
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:45:13-74
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:44:13-72
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:42:13-69
+activity#com.umeng.socialize.editorpage.ShareActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:46:9-50:15
+	android:excludeFromRecents
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:49:13-46
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:48:13-51
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:47:13-72
+activity#com.umeng.socialize.media.WBShareCallBackActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:52:9-58:20
+	android:screenOrientation
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:57:13-49
+	android:exported
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:56:13-37
+	android:configChanges
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:54:13-63
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:55:13-72
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:53:13-77
+activity#com.sina.weibo.sdk.share.WbShareTransActivity
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:59:9-68:20
+	android:launchMode
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:61:13-44
+	android:theme
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:60:13-83
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:62:13-73
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:63:13-66:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:64:17-92
+	android:name
+		ADDED from D:\AsWorkspace\Ablesky6.0\UmengSDK\AndroidManifest.xml:64:25-89

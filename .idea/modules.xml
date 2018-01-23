@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ablesky/Ablesky.iml" filepath="$PROJECT_DIR$/Ablesky/Ablesky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ablesky6.0.iml" filepath="$PROJECT_DIR$/Ablesky6.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UmengSDK/UmengSDK.iml" filepath="$PROJECT_DIR$/UmengSDK/UmengSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer_library/ijkplayer_library.iml" filepath="$PROJECT_DIR$/ijkplayer_library/ijkplayer_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/screendimen_library/screendimen_library.iml" filepath="$PROJECT_DIR$/screendimen_library/screendimen_library.iml" />
+    </modules>
+  </component>
+</project>
