@@ -8,9 +8,12 @@ import android.support.multidex.MultiDexApplication;
 
 public class AppContext extends MultiDexApplication{
 
+    public static AppContext application;
+
     @Override
     public void onCreate() {
         super.onCreate();
+        application = this;
         CustomCrashHandler.getInstance().setCustomCrashHanler(this);
     }
 }

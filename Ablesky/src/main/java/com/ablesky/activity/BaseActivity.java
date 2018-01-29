@@ -87,13 +87,13 @@ public class BaseActivity extends SwipeBackActivity{
                     layoutParams.width = RelativeLayout.LayoutParams.MATCH_PARENT;
                     layoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP, RelativeLayout.TRUE);
                 }
+                if (isLightStatusBar){
+                    lollipop_statusBar_mask.setBackgroundResource(R.color.colorAccent);
+                }
             }
             getWindow().setStatusBarColor(getResources().getColor(R.color.transparent));
             if (color != R.color.transparent){
                 baseContentView.setPadding(0, statusBarHeight, 0, 0);
-            }
-            if (isLightStatusBar){
-                lollipop_statusBar_mask.setBackgroundResource(R.color.colorAccent);
             }
             baseContentView.addView(contentView);
             setContentView(baseContentView);
