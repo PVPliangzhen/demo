@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ffffff"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/dp110" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp30"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="@dimen/dp25"
+            android:src="@drawable/dotselector" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="@dimen/dp25"
+            android:src="@drawable/dotselector" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="@dimen/dp25"
+            android:src="@drawable/dotselector" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:padding="@dimen/dp25"
+            android:src="@drawable/dotselector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/guide_login"
+        android:layout_width="@dimen/dp280"
+        android:layout_height="@dimen/dp90"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp138"
+        android:layout_marginLeft="@dimen/dp60"
+        android:background="@drawable/bg_guide_button_selector"
+        android:gravity="center"
+        android:text="登录/注册"
+        android:textColor="@color/bg_guide_text_selector"
+        android:textSize="@dimen/dp30"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/guide_skip"
+        android:layout_width="@dimen/dp280"
+        android:layout_height="@dimen/dp90"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dp138"
+        android:layout_marginRight="@dimen/dp60"
+        android:background="@drawable/bg_guide_button_selector"
+        android:gravity="center"
+        android:text="立即体验"
+        android:textColor="@color/bg_guide_text_selector"
+        android:textSize="@dimen/dp30"
+        android:visibility="gone" />
+
+</RelativeLayout>

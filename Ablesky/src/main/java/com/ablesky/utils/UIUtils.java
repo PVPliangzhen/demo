@@ -2,6 +2,8 @@ package com.ablesky.utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.view.KeyCharacterMap;
 import android.view.KeyEvent;
@@ -9,6 +11,7 @@ import android.view.ViewConfiguration;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.ablesky.app.AppContext;
 import com.ablesky.app.AppLog;
 
 import java.lang.reflect.Field;
@@ -167,5 +170,15 @@ public class UIUtils {
             }
         }
         return false;
+    }
+
+    /**
+     * 判断网络是否可用
+     */
+    public static boolean isNetworkAvailable() {
+        ConnectivityManager cm = (ConnectivityManager) AppContext.application
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo info = cm.getActiveNetworkInfo();
+        return info != null && info.isAvailable() && info.isConnected();
     }
 }

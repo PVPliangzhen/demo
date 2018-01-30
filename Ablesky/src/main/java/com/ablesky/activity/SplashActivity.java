@@ -13,10 +13,14 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
 
+import com.ThirdPartyUtil;
 import com.ablesky.app.AppContext;
 import com.ablesky.ui.activity.R;
 import com.ablesky.utils.DialogUtils;
 import com.ablesky.utils.SpUtils;
+import com.ablesky.utils.StringUtils;
+import com.ablesky.utils.ThreadPoolUtil;
+import com.ablesky.utils.UIUtils;
 
 /**
  * Created by liangzhen on 2018/1/23.
@@ -29,6 +33,7 @@ public class SplashActivity extends BaseActivity{
     private final int REQUEST_PERMINSSION_WRITE_STORAGE_CODE = 0x01;
     private String password;
     private String username;
+    private Boolean isFristIn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +60,25 @@ public class SplashActivity extends BaseActivity{
     }
 
     private void initUI() {
-        //final String platformName = SpUtils.getInstance(appContext).get(ThirdPartyUtil.THIRDLOGIN, "");
+        final String platformName = SpUtils.getInstance(appContext).get(ThirdPartyUtil.THIRDLOGIN, "");
+        if (StringUtils.isEmpty(password) && StringUtils.isEmpty(platformName)){
+            if (isShowGuideActivity()) {
+                startActivity(new Intent(appContext, GuideActivity.class));
+                finish();
+            } else {
+                startActivity(new Intent(appContext, MainActivity.class));
+//                if (loginResult != null && context.loginResult.isGotoInterest) {
+//                    context.startActivity(new Intent(context.appContext, ModifyInterestActivity.class));
+//                }
+            }
+        }else{
+
+        }
+    }
+
+    private boolean isShowGuideActivity() {
+        isFristIn = SpUtils.getInstance(appContext).get("isFristIn6.0", true);
+        return isFristIn;
     }
 
     private void showGuideDialog(int type) {
