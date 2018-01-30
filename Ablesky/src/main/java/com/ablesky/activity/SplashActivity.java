@@ -17,9 +17,6 @@ import com.ablesky.app.AppContext;
 import com.ablesky.ui.activity.R;
 import com.ablesky.utils.DialogUtils;
 import com.ablesky.utils.SpUtils;
-import com.umeng.ThirdPartyUtil;
-
-import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
 /**
  * Created by liangzhen on 2018/1/23.
@@ -58,7 +55,7 @@ public class SplashActivity extends BaseActivity{
     }
 
     private void initUI() {
-        final String platformName = SpUtils.getInstance(appContext).get(ThirdPartyUtil.THIRDLOGIN, "");
+        //final String platformName = SpUtils.getInstance(appContext).get(ThirdPartyUtil.THIRDLOGIN, "");
     }
 
     private void showGuideDialog(int type) {
